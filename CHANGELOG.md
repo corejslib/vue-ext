@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.14.40 (2026-03-06)
+
+**Other changes:**
+
+- chore(metadata): update package metadata (● [684017e](https://github.com/corejslib/vue-ext/commit/684017ec); 👬 zdm)
+
+Compare with the previous release: [v8.14.39](https://github.com/corejslib/vue-ext/compare/v8.14.39...v8.14.40)
+
 ### v8.14.39 (2026-02-09)
 
 **Bug fixes:**
