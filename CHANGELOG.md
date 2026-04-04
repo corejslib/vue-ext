@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.0 (2026-04-04)
+
+**New features:**
+
+- \[MINOR] feat: add extjs 8.0.0 (● [88a4988](https://github.com/corejslib/vue-ext/commit/88a4988a); 👬 zdm)
+
+Compare with the previous release: [v8.14.41](https://github.com/corejslib/vue-ext/compare/v8.14.41...v8.15.0)
+
 ### v8.14.41 (2026-03-18)
 
 **Other changes:**
