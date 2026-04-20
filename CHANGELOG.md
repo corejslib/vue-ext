@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.1 (2026-04-20)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: update .editorconfig (● [565cfcb](https://github.com/corejslib/vue-ext/commit/565cfcb6); 👬 zdm)
+
+Compare with the previous release: [v8.15.0...v8.15.1](https://github.com/corejslib/vue-ext/compare/v8.15.0...v8.15.1)
+
 ### v8.15.0 (2026-04-04)
 
 **New features:**
