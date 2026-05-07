@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.2 (2026-05-07)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: rename cli.config.yaml to scli.config.yaml (● [35224f7](https://github.com/corejslib/vue-ext/commit/35224f7f); 👬 zdm)
+
+Compare with the previous release: [v8.15.1...v8.15.2](https://github.com/corejslib/vue-ext/compare/v8.15.1...v8.15.2)
+
 ### v8.15.1 (2026-04-20)
 
 **Code refactoring:**
