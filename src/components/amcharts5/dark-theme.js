@@ -8,8 +8,8 @@ class Theme extends BaseTheme {
         this.rule( "InterfaceColors" ).setAll( {
 
             // patch tooltips colors
-            "alternativeBackground": Color.fromHex( 0x00_00_00 ),
-            "text": Color.fromHex( 0xFF_FF_FF ),
+            "alternativeBackground": Color.fromHex( 0 ),
+            "text": Color.fromHex( 0xFFFFFF ),
         } );
     }
 }
