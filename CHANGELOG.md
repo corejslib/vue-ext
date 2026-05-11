@@ -1,5 +1,17 @@
 # Changelog
 
+### v8.15.4 (2026-05-11)
+
+**Bug fixes:**
+
+- \[PATCH] fix: catch errors in promises (● [26dea56](https://github.com/corejslib/vue-ext/commit/26dea56b); 👬 zdm)
+
+**Other changes:**
+
+- style: lint (● [72c5fdb](https://github.com/corejslib/vue-ext/commit/72c5fdb9); 👬 zdm)
+
+Compare with the previous release: [v8.15.3...v8.15.4](https://github.com/corejslib/vue-ext/compare/v8.15.3...v8.15.4)
+
 ### v8.15.3 (2026-05-09)
 
 **Other changes:**
