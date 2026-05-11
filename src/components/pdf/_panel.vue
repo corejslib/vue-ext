@@ -291,9 +291,11 @@ export default {
 
             var renderTask = page.render( renderContext );
 
-            renderTask.promise.then( () => {
-                placeholder.append( canvas );
-            } );
+            renderTask.promise
+                .then( () => {
+                    placeholder.append( canvas );
+                } )
+                .catch( e => console.error( e ) );
 
             this.pdfPages.push( {
                 "canvas": canvas,
