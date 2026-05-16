@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.6 (2026-05-16)
+
+**Other changes:**
+
+- docs: update (● [f48a5a1](https://github.com/corejslib/vue-ext/commit/f48a5a1a); 👬 zdm)
+
+Compare with the previous release: [v8.15.5...v8.15.6](https://github.com/corejslib/vue-ext/compare/v8.15.5...v8.15.6)
+
 ### v8.15.5 (2026-05-16)
 
 **Other changes:**
