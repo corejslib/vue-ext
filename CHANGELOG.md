@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.7 (2026-05-28)
+
+**Other changes:**
+
+- build: remove registries from .npmrc (● [c46c748](https://github.com/corejslib/vue-ext/commit/c46c7488); 👬 zdm)
+
+Compare with the previous release: [v8.15.6...v8.15.7](https://github.com/corejslib/vue-ext/compare/v8.15.6...v8.15.7)
+
 ### v8.15.6 (2026-05-16)
 
 **Other changes:**
