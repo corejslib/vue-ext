@@ -8,7 +8,7 @@
             <ext-passwordfield :label="l10n(`Confirm password`)" labelAlign="left" labelWidth="150" name="confirmedPassword" :placeholder="l10n(`Confirm password`)" required="true" revealable="true"/>
 
             <ext-container layout="center">
-                <ext-button :text="l10n(`Generate random password`)" @tap="_generatePassword"/>
+                <ext-button :text="l10n(`Generate random password`)" @tap="_generateRandomPassword"/>
             </ext-container>
 
             <ext-togglefield :label="l10n(`Access enabled`)" labelAlign="left" labelWidth="150" name="enabled" value="true"/>
@@ -25,7 +25,7 @@
 
 <script>
 import constants from "#core/app/constants";
-import passwords from "#core/passwords";
+import passwords from "#core/crypto/passwords";
 import RolesPanel from "#src/components/acl/roles.panel";
 
 export default {
@@ -53,12 +53,12 @@ export default {
 
             this.$refs.form.ext.getFields( "password" ).setValidators( {
                 "type": "password-strength",
-                "strength": this.$app.settings.passwordsStrength,
+                "allowWeakPasswords": this.$app.settings.allowWeakPasswords,
             } );
         },
 
-        _generatePassword () {
-            const password = passwords.generatePassword().password;
+        _generateRandomPassword () {
+            const password = passwords.generateRandomPassword().password;
 
             this.$utils.copyToClipboard( password );
 

@@ -41,7 +41,7 @@ export default {
 
             this.$refs.form.ext.getFields( "password" ).setValidators( {
                 "type": "password-strength",
-                "strength": this.$app.settings.passwordsStrength,
+                "allowWeakPasswords": this.$app.settings.allowWeakPasswords,
             } );
 
             cmp.setKeyMap( { "ENTER": this._submit.bind( this ) } );

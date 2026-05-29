@@ -13,7 +13,7 @@
         </ext-fieldpanel>
 
         <ext-container layout="center">
-            <ext-button :text="l10n(`Generate random password`)" @tap="_generatePassword"/>
+            <ext-button :text="l10n(`Generate random password`)" @tap="_generateRandomPassword"/>
         </ext-container>
 
         <ext-toolbar docked="bottom" layout='{"pack":"end","type":"hbox"}'>
@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import passwords from "#core/passwords";
+import passwords from "#core/crypto/passwords";
 
 export default {
     "props": {
@@ -47,7 +47,7 @@ export default {
 
             this.$refs.form.ext.getFields( "password" ).setValidators( {
                 "type": "password-strength",
-                "strength": this.$app.settings.passwordsStrength,
+                "allowWeakPasswords": this.$app.settings.allowWeakPasswords,
             } );
         },
 
@@ -84,8 +84,8 @@ export default {
             return this.$api.call( "account/set-password", password );
         },
 
-        _generatePassword () {
-            const password = passwords.generatePassword().password;
+        _generateRandomPassword () {
+            const password = passwords.generateRandomPassword().password;
 
             this.$utils.copyToClipboard( password );
 

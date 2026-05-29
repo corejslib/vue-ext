@@ -8,7 +8,7 @@
             <ext-passwordfield :label="l10n(`Confirm new password`)" name="confirmedPassword" :placeholder="l10n(`Confirm new password`)" required="true" revealable="true"/>
 
             <ext-container layout="center">
-                <ext-button :text="l10n(`Generate random password`)" @tap="_generatePassword"/>
+                <ext-button :text="l10n(`Generate random password`)" @tap="_generateRandomPassword"/>
             </ext-container>
         </ext-fieldpanel>
 
@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import passwords from "#core/passwords";
+import passwords from "#core/crypto/passwords";
 
 export default {
     "computed": {
@@ -40,7 +40,7 @@ export default {
 
             this.$refs.form.ext.getFields( "password" ).setValidators( {
                 "type": "password-strength",
-                "strength": this.$app.settings.passwordsStrength,
+                "allowWeakPasswords": this.$app.settings.allowWeakPasswords,
             } );
 
             this.ext.setKeyMap( { "ENTER": this._submit.bind( this ) } );
@@ -83,8 +83,8 @@ export default {
             }
         },
 
-        _generatePassword () {
-            const password = passwords.generatePassword().password;
+        _generateRandomPassword () {
+            const password = passwords.generateRandomPassword().password;
 
             this.$utils.copyToClipboard( password );
 
