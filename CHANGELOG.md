@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.9 (2026-05-30)
+
+**Other changes:**
+
+- build(deps): bunp pdfjs-dist@^6.0.0 (● [3e0816d](https://github.com/corejslib/vue-ext/commit/3e0816d8); 👬 zdm)
+
+Compare with the previous release: [v8.15.8...v8.15.9](https://github.com/corejslib/vue-ext/compare/v8.15.8...v8.15.9)
+
 ### v8.15.8 (2026-05-29)
 
 **Code refactoring:**
