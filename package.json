@@ -45,7 +45,7 @@
         "@amcharts/amcharts5": "^5.1.10",
         "@fortawesome/fontawesome-free": "^7.0.0",
         "froala-editor": "^5.0.0",
-        "pdfjs-dist": "^5.0.0"
+        "pdfjs-dist": "^6.0.0"
     },
     "peerDependencies": {
         "@corejslib/ext": "^5.3.2",
