@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.10 (2026-06-17)
+
+**Code refactoring:**
+
+- \[PATCH] refactor: refactor passwords (● [00f80e9](https://github.com/corejslib/vue-ext/commit/00f80e9a); 👬 zdm)
+
+Compare with the previous release: [v8.15.9...v8.15.10](https://github.com/corejslib/vue-ext/compare/v8.15.9...v8.15.10)
+
 ### v8.15.9 (2026-05-30)
 
 **Other changes:**
