@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import passwords from "#core/crypto/passwords";
+import Passwords from "#core/crypto/passwords";
 
 export default {
     "computed": {
@@ -84,7 +84,7 @@ export default {
         },
 
         _generateRandomPassword () {
-            const password = passwords.generateRandomPassword().password;
+            const password = Passwords.default.generateRandomPassword().password;
 
             this.$utils.copyToClipboard( password );
 

@@ -25,7 +25,7 @@
 
 <script>
 import constants from "#core/app/constants";
-import passwords from "#core/crypto/passwords";
+import Passwords from "#core/crypto/passwords";
 import RolesPanel from "#src/components/acl/roles.panel";
 
 export default {
@@ -58,7 +58,7 @@ export default {
         },
 
         _generateRandomPassword () {
-            const password = passwords.generateRandomPassword().password;
+            const password = Passwords.default.generateRandomPassword().password;
 
             this.$utils.copyToClipboard( password );
 
