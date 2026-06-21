@@ -68,7 +68,7 @@ export default {
                     .map( name => {
                         return {
                             "name": name,
-                            "title": name.replaceAll( /(-.)/g, match => match.replace( "-", " " ).toUpperCase() ).replace( /^./, match => match.toUpperCase() ),
+                            "title": name.replaceAll( /(-.)/gv, match => match.replace( "-", " " ).toUpperCase() ).replace( /^./v, match => match.toUpperCase() ),
                             "color": colors[ name ][ 500 ],
                         };
                     } ),

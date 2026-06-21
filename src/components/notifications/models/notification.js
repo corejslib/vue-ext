@@ -16,8 +16,8 @@ export default Ext.define( null, {
         //
         { "name": "done", "type": "bool" },
 
-        { "name": "subjext", "convert": value => value?.replaceAll( /\n+/g, " " ) },
-        { "name": "body", "convert": value => value?.replaceAll( /\n+/g, "<br/>" ) },
+        { "name": "subjext", "convert": value => value?.replaceAll( /\n+/gv, " " ) },
+        { "name": "body", "convert": value => value?.replaceAll( /\n+/gv, "<br/>" ) },
 
         { "name": "relative_time", "type": "string", "persist": false },
     ],
