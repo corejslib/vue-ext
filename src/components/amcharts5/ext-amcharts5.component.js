@@ -29,19 +29,19 @@ export default class EwcAmchrarts5 extends ExtContainer {
     }
 
     static getProperties ( properties ) {
-        properties = properties.concat( EwcAmchrarts5.PROPERTIES() );
+        properties = properties.concat( this.PROPERTIES() );
 
-        return ExtContainer.getProperties( properties );
+        return super.getProperties( properties );
     }
 
     static get observedAttributes () {
         var attrs = super.observedAttributes;
 
-        EwcAmchrarts5.PROPERTIES().forEach( ( property, index, array ) => {
+        this.PROPERTIES().forEach( ( property, index, array ) => {
             attrs.push( property );
         } );
 
-        EwcAmchrarts5.EVENTS().forEach( ( eventparameter, index, array ) => {
+        this.EVENTS().forEach( ( eventparameter, index, array ) => {
             attrs.push( "on" + eventparameter.name );
         } );
 
