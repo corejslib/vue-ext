@@ -430,7 +430,7 @@ Other changes:
 
 Other changes:
 
-- chore: remove browser_major
+- chore: remove browser\_major
 
 [Compare with the previous release: v8.14.2 ... v8.14.3](https://github.com/c0rejs/vue-ext/compare/v8.14.2...v8.14.3)
 
@@ -2821,7 +2821,7 @@ Fixes:
 Features:
 
 - feat: notifications settings
-- feat: telegram_name renamed to telegram_username
+- feat: telegram\_name renamed to telegram\_username
 
 ### 6.2.4 (2021-10-27)
 
