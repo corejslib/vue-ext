@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.14 (2026-07-02)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix md \_ escape (● [354770e](https://github.com/corejslib/vue-ext/commit/354770e9); 👬 zdm)
+
+Compare with the previous release: [v8.15.13...v8.15.14](https://github.com/corejslib/vue-ext/compare/v8.15.13...v8.15.14)
+
 ### v8.15.13 (2026-06-22)
 
 **Other changes:**
