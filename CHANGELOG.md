@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.15 (2026-08-01)
+
+**Bug fixes:**
+
+- \[PATCH] fix: update package keywords (● [5ea1aa7](https://github.com/corejslib/vue-ext/commit/5ea1aa74); 👬 zdm)
+
+Compare with the previous release: [v8.15.14...v8.15.15](https://github.com/corejslib/vue-ext/compare/v8.15.14...v8.15.15)
+
 ### v8.15.14 (2026-07-02)
 
 **Bug fixes:**
