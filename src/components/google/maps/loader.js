@@ -1,6 +1,6 @@
 var MAPS_LOADED;
 var PROMISES = [];
-const CALLBACK = "_softvisioGoogleMapsInit";
+const CALLBACK = "_corejslibGoogleMapsInit";
 
 export default async function loadMaps ( key, { language, libraries } = {} ) {
 

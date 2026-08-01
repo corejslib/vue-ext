@@ -44,7 +44,7 @@ export default class extends WebpackComponent {
 
         // config.optimization.splitChunks.cacheGroups["ext"] = {
         //     "name": "ext",
-        //     "test": /@softvisio[\\/]ext[\\/]/,
+        //     "test": /@corejslib[\\/]ext[\\/]/,
         //     "priority": -9,
         //     "chunks": "initial",
         // };
