@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.16 (2026-08-01)
+
+**Other changes:**
+
+- chore: rename softvisio to corejslib (● [148a9dc](https://github.com/corejslib/vue-ext/commit/148a9dc3); 👬 zdm)
+
+Compare with the previous release: [v8.15.15...v8.15.16](https://github.com/corejslib/vue-ext/compare/v8.15.15...v8.15.16)
+
 ### v8.15.15 (2026-08-01)
 
 **Bug fixes:**
