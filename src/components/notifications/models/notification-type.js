@@ -16,8 +16,10 @@ export default Ext.define( null, {
             "name": "enabled",
             "type": "bool",
             calculate ( data ) {
-                for ( const channel of Object.values( data.channels || {} ) ) {
-                    if ( channel.enabled ) return true;
+                if ( data.channels ) {
+                    for ( const channel of Object.values( data.channels ) ) {
+                        if ( channel.enabled ) return true;
+                    }
                 }
 
                 return false;
@@ -28,8 +30,10 @@ export default Ext.define( null, {
             "name": "editable",
             "type": "bool",
             calculate ( data ) {
-                for ( const channel of Object.values( data.channels || {} ) ) {
-                    if ( channel.editable ) return true;
+                if ( data.channels ) {
+                    for ( const channel of Object.values( data.channels ) ) {
+                        if ( channel.editable ) return true;
+                    }
                 }
 
                 return false;
@@ -40,8 +44,10 @@ export default Ext.define( null, {
             "name": "subscribed",
             "type": "bool",
             calculate ( data ) {
-                for ( const channel of Object.values( data.channels || {} ) ) {
-                    if ( channel.editable && channel.subscribed ) return true;
+                if ( data.channels ) {
+                    for ( const channel of Object.values( data.channels ) ) {
+                        if ( channel.editable && channel.subscribed ) return true;
+                    }
                 }
 
                 return false;
