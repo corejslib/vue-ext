@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.17 (2026-08-04)
+
+**Other changes:**
+
+- style: lint (● [e8dbb40](https://github.com/corejslib/vue-ext/commit/e8dbb40b), [4ae6fbf](https://github.com/corejslib/vue-ext/commit/4ae6fbf7), [a42e9fa](https://github.com/corejslib/vue-ext/commit/a42e9fa4); 👬 zdm)
+
+Compare with the previous release: [v8.15.16...v8.15.17](https://github.com/corejslib/vue-ext/compare/v8.15.16...v8.15.17)
+
 ### v8.15.16 (2026-08-01)
 
 **Other changes:**
