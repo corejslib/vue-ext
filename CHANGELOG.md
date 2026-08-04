@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.18 (2026-08-04)
+
+**Other changes:**
+
+- chore: rename ccli to zcli (● [73375c3](https://github.com/corejslib/vue-ext/commit/73375c3c), [329b89f](https://github.com/corejslib/vue-ext/commit/329b89f8), [b1f5c58](https://github.com/corejslib/vue-ext/commit/b1f5c58a); 👬 zdm)
+
+Compare with the previous release: [v8.15.17...v8.15.18](https://github.com/corejslib/vue-ext/compare/v8.15.17...v8.15.18)
+
 ### v8.15.17 (2026-08-04)
 
 **Other changes:**
