@@ -180,11 +180,11 @@ msgstr "Назва бота"
 msgid "Bot short description is shown on the bot profile page and is sent together with the link when users share the bot."
 msgstr "Короткий опис бота відображається на сторінці профілю бота та надсилається разом із посиланням, коли користувачі діляться ботом."
 
-#: ../../src/components/telegram/bot/models/bot.js:56:14
+#: ../../src/components/telegram/bot/models/bot.js:59:22
 msgid "Bot started"
 msgstr "Бот запущений"
 
-#: ../../src/components/telegram/bot/models/bot.js:57:14
+#: ../../src/components/telegram/bot/models/bot.js:60:22
 msgid "Bot stopped"
 msgstr "Бот зупинений"
 
