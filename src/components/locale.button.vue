@@ -25,14 +25,16 @@ export default {
                 return;
             }
 
-            const menu = Array.from( this.$app.locale.locales, locale => ( {
-                "xtype": "menuradioitem",
-                "value": locale.id,
-                "text": locale.displayName,
-                "group": "locale",
-                "checked": locale.id === this.$app.locale.id,
-                "handler": this._setLocale.bind( this ),
-            } ) );
+            const menu = Array.from( this.$app.locale.locales, locale => {
+                return {
+                    "xtype": "menuradioitem",
+                    "value": locale.id,
+                    "text": locale.displayName,
+                    "group": "locale",
+                    "checked": locale.id === this.$app.locale.id,
+                    "handler": this._setLocale.bind( this ),
+                };
+            } );
 
             cmp.setMenu( menu );
 
