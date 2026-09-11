@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.19 (2026-09-11)
+
+**Bug fixes:**
+
+- \[PATCH] fix: update locales po (● [1af585c](https://github.com/corejslib/vue-ext/commit/1af585c6); 👬 zdm)
+
+Compare with the previous release: [v8.15.18...v8.15.19](https://github.com/corejslib/vue-ext/compare/v8.15.18...v8.15.19)
+
 ### v8.15.18 (2026-08-04)
 
 **Other changes:**
