@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.20 (2026-09-15)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct app constants import path (● [74c29fb](https://github.com/corejslib/vue-ext/commit/74c29fb3); 👬 zdm)
+
+Compare with the previous release: [v8.15.19...v8.15.20](https://github.com/corejslib/vue-ext/compare/v8.15.19...v8.15.20)
+
 ### v8.15.19 (2026-09-11)
 
 **Bug fixes:**
