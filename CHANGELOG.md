@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.21 (2026-09-21)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct Russian "Adding a user" translation (● [02e63a8](https://github.com/corejslib/vue-ext/commit/02e63a89); 👬 zdm)
+
+Compare with the previous release: [v8.15.20...v8.15.21](https://github.com/corejslib/vue-ext/compare/v8.15.20...v8.15.21)
+
 ### v8.15.20 (2026-09-15)
 
 **Bug fixes:**
