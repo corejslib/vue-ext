@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.22 (2026-09-21)
+
+**Bug fixes:**
+
+- \[PATCH] fix: load PDF worker from module URL (● [85bde51](https://github.com/corejslib/vue-ext/commit/85bde516); 👬 zdm)
+
+Compare with the previous release: [v8.15.21...v8.15.22](https://github.com/corejslib/vue-ext/compare/v8.15.21...v8.15.22)
+
 ### v8.15.21 (2026-09-21)
 
 **Bug fixes:**
