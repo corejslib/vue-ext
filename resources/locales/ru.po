@@ -76,11 +76,11 @@ msgid "Appearance"
 msgstr "Внешний вид"
 
 #: ../../src/components/telegram/bot/details/info.panel.vue:180:47
-msgid "Are you sure you want to delete this bot and all it's data? This operation is not revertable."
+msgid "Are you sure you want to delete this bot and all its data? This operation is not reversible."
 msgstr "Вы уверены, что хотите удалить этого бота и все его данные? Эта операция необратима."
 
 #: ../../src/components/telegram/bot/links/details.panel.vue:206:47
-msgid "Are you sure you want to delete this link and all it's data? This operation is not revertable."
+msgid "Are you sure you want to delete this link and all its data? This operation is not reversible."
 msgstr "Вы уверены, что хотите удалить эту ссылку и все ее данные? Эта операция необратима."
 
 #: ../../src/components/account/tokens/panel.vue:166:47
@@ -1313,7 +1313,7 @@ msgid "User unsubscribed"
 msgstr "Пользователь отписался"
 
 #: ../../src/components/account/appearance.panel.vue:4:39
-msgid "User your device dark mode settings"
+msgid "Use your device's dark mode settings"
 msgstr "Используйте настройки темного режима вашего устройства"
 
 #: ../../src/components/telegram/bot/users/details.panel.vue:10:71
