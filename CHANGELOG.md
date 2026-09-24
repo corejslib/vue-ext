@@ -1,5 +1,19 @@
 # Changelog
 
+### v8.15.23 (2026-09-24)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct Ukrainian locale strings (● [911eec7](https://github.com/corejslib/vue-ext/commit/911eec79); 👬 zdm)
+
+**Other changes:**
+
+- chore: update translations (● [0b8e589](https://github.com/corejslib/vue-ext/commit/0b8e5898); 👬 zdm)
+
+- style: correct copy for delete confirmations and dark mode setting (● [28dfc43](https://github.com/corejslib/vue-ext/commit/28dfc43d), [9fffea8](https://github.com/corejslib/vue-ext/commit/9fffea84); 👬 zdm)
+
+Compare with the previous release: [v8.15.22...v8.15.23](https://github.com/corejslib/vue-ext/compare/v8.15.22...v8.15.23)
+
 ### v8.15.22 (2026-09-21)
 
 **Bug fixes:**
