@@ -363,7 +363,7 @@ msgstr "Текущая сессия"
 msgid "Dark mode"
 msgstr "Тёмный режим"
 
-#: ../../src/components/pdf/_panel.vue:109:35
+#: ../../src/components/pdf/_panel.vue:111:35
 msgid "Default size"
 msgstr "Размер по умолчанию"
 
@@ -413,7 +413,7 @@ msgstr "Разработка"
 msgid "Device"
 msgstr "Устройство"
 
-#: ../../src/components/account/appearance.panel.vue:4:92
+#: ../../src/components/account/appearance.panel.vue:4:93
 msgid "Device dark mode"
 msgstr "Темный режим устройства"
 
@@ -726,7 +726,7 @@ msgstr "Отметить все как готовые"
 msgid "Mark as done"
 msgstr "Отметить как готово"
 
-#: ../../src/components/pdf/_panel.vue:78:35
+#: ../../src/components/pdf/_panel.vue:80:35
 msgid "Maximize"
 msgstr "Максимизировать"
 
@@ -1279,6 +1279,10 @@ msgstr "Отписавшиеся пользователи"
 msgid "Use device dark mode"
 msgstr "Использовать темный режим устройства"
 
+#: ../../src/components/account/appearance.panel.vue:4:39
+msgid "Use your device's dark mode settings"
+msgstr "Используйте настройки темного режима вашего устройства"
+
 #: ../../src/components/acl/add-user.dialog.vue:84:29
 msgid "User added"
 msgstr "Пользователь добавлен"
@@ -1311,10 +1315,6 @@ msgstr "Пользователь подписался"
 #: ../../src/components/telegram/bot/users/models/user.js:54:27
 msgid "User unsubscribed"
 msgstr "Пользователь отписался"
-
-#: ../../src/components/account/appearance.panel.vue:4:39
-msgid "Use your device's dark mode settings"
-msgstr "Используйте настройки темного режима вашего устройства"
 
 #: ../../src/components/telegram/bot/users/details.panel.vue:10:71
 #: ../../src/components/telegram/bot/users/panel.vue:18:69
@@ -1383,10 +1383,10 @@ msgstr "Ваши сессии"
 msgid "Your token:"
 msgstr "Ваш токен:"
 
-#: ../../src/components/pdf/_panel.vue:101:35
+#: ../../src/components/pdf/_panel.vue:103:35
 msgid "Zoom in"
 msgstr "Увеличить"
 
-#: ../../src/components/pdf/_panel.vue:117:35
+#: ../../src/components/pdf/_panel.vue:119:35
 msgid "Zoom out"
 msgstr "Уменьшить"
