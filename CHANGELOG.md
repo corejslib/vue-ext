@@ -1,5 +1,19 @@
 # Changelog
 
+### v8.15.27 (2026-09-27)
+
+**Bug fixes:**
+
+- \[PATCH] fix: correct Russian session termination translation (● [4358292](https://github.com/corejslib/vue-ext/commit/4358292b); 👬 zdm)
+
+- \[PATCH] fix: correct Russian translations (● [6889392](https://github.com/corejslib/vue-ext/commit/68893922); 👬 zdm)
+
+**Other changes:**
+
+- chore: update Ukrainian session termination translation (● [3f603cf](https://github.com/corejslib/vue-ext/commit/3f603cf4); 👬 zdm)
+
+Compare with the previous release: [v8.15.26...v8.15.27](https://github.com/corejslib/vue-ext/compare/v8.15.26...v8.15.27)
+
 ### v8.15.26 (2026-09-27)
 
 **Other changes:**
@@ -542,7 +556,7 @@ Other changes:
 
 Other changes:
 
-- chore: remove browser\_major
+- chore: remove browser_major
 
 [Compare with the previous release: v8.14.2 ... v8.14.3](https://github.com/c0rejs/vue-ext/compare/v8.14.2...v8.14.3)
 
@@ -2933,7 +2947,7 @@ Fixes:
 Features:
 
 - feat: notifications settings
-- feat: telegram\_name renamed to telegram\_username
+- feat: telegram_name renamed to telegram_username
 
 ### 6.2.4 (2021-10-27)
 
