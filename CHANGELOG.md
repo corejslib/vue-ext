@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.25 (2026-09-27)
+
+**Other changes:**
+
+- chore: remove .pot (● [0c0c7a7](https://github.com/corejslib/vue-ext/commit/0c0c7a7b); 👬 zdm)
+
+Compare with the previous release: [v8.15.24...v8.15.25](https://github.com/corejslib/vue-ext/compare/v8.15.24...v8.15.25)
+
 ### v8.15.24 (2026-09-25)
 
 **Other changes:**
