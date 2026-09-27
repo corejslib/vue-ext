@@ -1,5 +1,15 @@
 # Changelog
 
+### v8.15.26 (2026-09-27)
+
+**Other changes:**
+
+- Revert "chore: remove .pot" (● [2942b1c](https://github.com/corejslib/vue-ext/commit/2942b1c8); 👬 zdm)
+
+    This reverts commit [0c0c7a7](https://github.com/corejslib/vue-ext/commit/0c0c7a7b02ec9f198f17d2ec816b8b1771de8d41).
+
+Compare with the previous release: [v8.15.25...v8.15.26](https://github.com/corejslib/vue-ext/compare/v8.15.25...v8.15.26)
+
 ### v8.15.25 (2026-09-27)
 
 **Other changes:**
