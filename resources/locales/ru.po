@@ -217,7 +217,7 @@ msgstr "Вызовы"
 #: ../../src/components/telegram/bot/links/details.panel.vue:64:71
 #: ../../src/utils.js:139:36 ../../src/utils.js:86:36
 msgid "Cancel"
-msgstr "Отменить"
+msgstr "Отмена"
 
 #: ../../src/components/telegram/bot/details/edit-api-token.dialog.vue:2:50
 #: ../../src/components/telegram/bot/details/info.panel.vue:69:124
@@ -363,7 +363,7 @@ msgstr "Текущая сессия"
 msgid "Dark mode"
 msgstr "Тёмный режим"
 
-#: ../../src/components/pdf/_panel.vue:111:35
+#: ../../src/components/pdf/_panel.vue:108:35
 msgid "Default size"
 msgstr "Размер по умолчанию"
 
@@ -726,7 +726,7 @@ msgstr "Отметить все как готовые"
 msgid "Mark as done"
 msgstr "Отметить как готово"
 
-#: ../../src/components/pdf/_panel.vue:80:35
+#: ../../src/components/pdf/_panel.vue:77:35
 msgid "Maximize"
 msgstr "Максимизировать"
 
@@ -857,7 +857,7 @@ msgstr "Инструкции по изменению пароля отправл
 #: ../../src/components/change-password.dialog.vue:74:29
 #: ../../src/components/reset-password.dialog.vue:77:29
 msgid "Password changed"
-msgstr "Пароль изменен"
+msgstr "Пароль изменён"
 
 #: ../../src/components/administration/users/create-user.dialog.vue:65:25
 #: ../../src/components/change-password.dialog.vue:92:25
@@ -1383,10 +1383,10 @@ msgstr "Ваши сессии"
 msgid "Your token:"
 msgstr "Ваш токен:"
 
-#: ../../src/components/pdf/_panel.vue:103:35
+#: ../../src/components/pdf/_panel.vue:100:35
 msgid "Zoom in"
 msgstr "Увеличить"
 
-#: ../../src/components/pdf/_panel.vue:119:35
+#: ../../src/components/pdf/_panel.vue:116:35
 msgid "Zoom out"
 msgstr "Уменьшить"

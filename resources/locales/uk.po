@@ -363,7 +363,7 @@ msgstr "Поточна сесія"
 msgid "Dark mode"
 msgstr "Темний режим"
 
-#: ../../src/components/pdf/_panel.vue:111:35
+#: ../../src/components/pdf/_panel.vue:108:35
 msgid "Default size"
 msgstr "Розмір за замовчуванням"
 
@@ -726,7 +726,7 @@ msgstr "Позначити все як виконане"
 msgid "Mark as done"
 msgstr "Позначити як виконане"
 
-#: ../../src/components/pdf/_panel.vue:80:35
+#: ../../src/components/pdf/_panel.vue:77:35
 msgid "Maximize"
 msgstr "Максимізувати"
 
@@ -1383,10 +1383,10 @@ msgstr "Ваші сесії"
 msgid "Your token:"
 msgstr "Ваш токен:"
 
-#: ../../src/components/pdf/_panel.vue:103:35
+#: ../../src/components/pdf/_panel.vue:100:35
 msgid "Zoom in"
 msgstr "Збільшити"
 
-#: ../../src/components/pdf/_panel.vue:119:35
+#: ../../src/components/pdf/_panel.vue:116:35
 msgid "Zoom out"
 msgstr "Зменшити"
