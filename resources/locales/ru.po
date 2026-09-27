@@ -1373,7 +1373,7 @@ msgstr "Ваш аккаунт"
 
 #: ../../src/app.js:39:32
 msgid "Your session was terminated on the API server."
-msgstr "Ваша сессия была прервана API сервером."
+msgstr "Ваша сессия была завершена на сервере API."
 
 #: ../../src/components/user-sessions/panel.vue:6:65
 msgid "Your sessions"
