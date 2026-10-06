@@ -1,5 +1,15 @@
 # Changelog
 
+### v8.15.28 (2026-10-06)
+
+**Other changes:**
+
+- chore: update .pot template (● [d3bd5f6](https://github.com/corejslib/vue-ext/commit/d3bd5f61); 👬 zdm)
+
+- chore: update translations (● [101a967](https://github.com/corejslib/vue-ext/commit/101a9675); 👬 zdm)
+
+Compare with the previous release: [v8.15.27...v8.15.28](https://github.com/corejslib/vue-ext/compare/v8.15.27...v8.15.28)
+
 ### v8.15.27 (2026-09-27)
 
 **Bug fixes:**
