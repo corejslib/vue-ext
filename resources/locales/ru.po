@@ -1,6 +1,7 @@
 msgid ""
 msgstr ""
 "Language: ru\n"
+"PO-Revision-Date: 2026-10-06T23:06:35.060Z\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Search-Path: /src/**\n"
 
@@ -29,7 +30,7 @@ msgstr "Доступ запрещен"
 #: ../../src/components/acl/panel.vue:246:22
 #: ../../src/components/administration/users/panel.vue:262:22
 msgid "Access disabled"
-msgstr "Доступ запрещен"
+msgstr "Доступ отключён"
 
 #: ../../src/components/account/tokens/panel.vue:155:22
 #: ../../src/components/account/tokens/panel.vue:23:88
@@ -40,7 +41,7 @@ msgstr "Доступ запрещен"
 #: ../../src/components/administration/users/panel.vue:25:67
 #: ../../src/components/administration/users/panel.vue:261:22
 msgid "Access enabled"
-msgstr "Доступ разрешен"
+msgstr "Доступ включён"
 
 #: ../../src/components/account/panel.vue:4:58
 msgid "Account"
@@ -230,7 +231,7 @@ msgstr "Изменить адрес электронной почты"
 
 #: ../../src/components/change-email.dialog.vue:44:29
 msgid "Change email address token was sent to the new email address"
-msgstr "Токен изменения адреса электронной почты был отправлен на новый адрес электронной почты."
+msgstr "Токен изменения адреса электронной почты был отправлен на новый адрес электронной почты"
 
 #: ../../src/components/account/account.panel.vue:12:39
 #: ../../src/components/administration/users/panel.vue:219:48
@@ -415,7 +416,7 @@ msgstr "Устройство"
 
 #: ../../src/components/account/appearance.panel.vue:4:93
 msgid "Device dark mode"
-msgstr "Темный режим устройства"
+msgstr "Тёмный режим устройства"
 
 #: ../../src/components/telegram/bot/details/info.panel.vue:55:92
 #: ../../src/components/telegram/bot/links/details.panel.vue:43:107
@@ -446,7 +447,7 @@ msgstr "Длительность (мс)"
 
 #: ../../src/components/development/monitoring/methods/panel.vue:161:28
 msgid "Duration / call (ms)"
-msgstr "Длительность вызова (мс)"
+msgstr "Длительность / вызов (мс)"
 
 #: ../../src/components/development/monitoring/methods/charts.panel.vue:252:24
 msgid "Duration per call (ms)"
@@ -1206,7 +1207,7 @@ msgstr "Чтобы использовать бота поддержки, вам 
 
 #: ../../src/components/account/appearance.panel.vue:13:39
 msgid "Toggle dark mode"
-msgstr "Переключить темный режим"
+msgstr "Переключить тёмный режим"
 
 #: ../../src/components/account/tokens/panel.vue:15:118
 msgid "Token"
@@ -1277,11 +1278,11 @@ msgstr "Отписавшиеся пользователи"
 
 #: ../../src/components/device-dark-mode.button.vue:28:19
 msgid "Use device dark mode"
-msgstr "Использовать темный режим устройства"
+msgstr "Использовать тёмный режим устройства"
 
 #: ../../src/components/account/appearance.panel.vue:4:39
 msgid "Use your device's dark mode settings"
-msgstr "Используйте настройки темного режима вашего устройства"
+msgstr "Используйте настройки тёмного режима вашего устройства"
 
 #: ../../src/components/acl/add-user.dialog.vue:84:29
 msgid "User added"

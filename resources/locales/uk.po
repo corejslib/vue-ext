@@ -1,6 +1,7 @@
 msgid ""
 msgstr ""
 "Language: uk\n"
+"PO-Revision-Date: 2026-10-06T23:07:20.582Z\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Search-Path: /src/**\n"
 
@@ -15,7 +16,7 @@ msgstr[2] "${n} днів"
 #: ../../src/components/about.dialog.vue:2:51
 #: ../../src/components/application/menu.vue:42:31
 msgid "About the project"
-msgstr "Про проект"
+msgstr "Про проєкт"
 
 #: ../../src/components/account/appearance.panel.vue:31:79
 msgid "Accent color"
@@ -835,7 +836,7 @@ msgstr "Відкрити бота в Telegram"
 #: ../../src/components/development/monitoring/methods/panel.vue:232:39
 #: ../../src/components/telegram/bot/links/details.panel.vue:6:72
 msgid "Open charts"
-msgstr "Відкриті діаграми"
+msgstr "Відкрити діаграми"
 
 #: ../../src/components/account/account.panel.vue:11:74
 #: ../../src/components/administration/users/create-user.dialog.vue:6:39
@@ -867,7 +868,7 @@ msgstr "Пароль скопійовано в буфер обміну"
 
 #: ../../src/components/authentication/password-recovery.panel.vue:5:34
 msgid "Password recovery"
-msgstr "Відновлення паролю"
+msgstr "Відновлення пароля"
 
 #: ../../src/components/reset-password.dialog.vue:36:29
 msgid "Password recovery token was not found"
@@ -1239,7 +1240,7 @@ msgstr "Загальна кількість підписаних користу�
 #: ../../src/components/telegram/bot/details/charts.panel.vue:195:24
 #: ../../src/components/telegram/bot/links/charts.panel.vue:194:24
 msgid "Total unsubscribed users"
-msgstr "Загальна кількість користувачів, які не підписалися"
+msgstr "Загальна кількість користувачів, які скасували підписку"
 
 #: ../../src/components/telegram/bot/details/info.panel.vue:48:78
 #: ../../src/components/telegram/bot/links/details.panel.vue:36:93
@@ -1310,7 +1311,7 @@ msgstr "Сесії користувача"
 
 #: ../../src/components/telegram/bot/users/models/user.js:51:27
 msgid "User subscribed"
-msgstr "Користувач підписаний"
+msgstr "Користувач підписався"
 
 #: ../../src/components/telegram/bot/users/models/user.js:54:27
 msgid "User unsubscribed"
