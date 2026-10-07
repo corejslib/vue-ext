@@ -1,5 +1,17 @@
 # Changelog
 
+### v8.15.29 (2026-10-07)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix translations (● [a1c1c88](https://github.com/corejslib/vue-ext/commit/a1c1c88b); 👬 zdm)
+
+**Other changes:**
+
+- style: lint (● [e2e24d1](https://github.com/corejslib/vue-ext/commit/e2e24d13); 👬 zdm)
+
+Compare with the previous release: [v8.15.28...v8.15.29](https://github.com/corejslib/vue-ext/compare/v8.15.28...v8.15.29)
+
 ### v8.15.28 (2026-10-06)
 
 **Other changes:**
