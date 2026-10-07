@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.30 (2026-10-07)
+
+**Other changes:**
+
+- chore: update translations (● [076d667](https://github.com/corejslib/vue-ext/commit/076d6675); 👬 zdm)
+
+Compare with the previous release: [v8.15.29...v8.15.30](https://github.com/corejslib/vue-ext/compare/v8.15.29...v8.15.30)
+
 ### v8.15.29 (2026-10-07)
 
 **Bug fixes:**
