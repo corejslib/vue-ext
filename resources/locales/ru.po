@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Language: ru\n"
-"PO-Revision-Date: 2026-10-07T20:22:13.593Z\n"
+"PO-Revision-Date: 2026-10-09T18:16:03.494Z\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 "X-Search-Path: /src/**\n"
 
@@ -1257,7 +1257,7 @@ msgid "UI version"
 msgstr "Версия UI"
 
 #: ../../src/app.js:27:32
-msgid "Unable to connect to the API server. Check, that you have internet connection."
+msgid "Unable to connect to the API server. Check that you have an internet connection."
 msgstr "Не удалось подключиться к серверу API. Проверьте, что у вас есть подключение к интернету."
 
 #: ../../src/components/cards.panel.vue:21:42
