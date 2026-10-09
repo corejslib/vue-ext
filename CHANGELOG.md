@@ -1,5 +1,15 @@
 # Changelog
 
+### v8.15.31 (2026-10-09)
+
+**Other changes:**
+
+- chore: update Russian and Ukrainian translations (● [febe3b3](https://github.com/corejslib/vue-ext/commit/febe3b3e); 👬 zdm)
+
+- style: correct connection error message wording (● [64360ba](https://github.com/corejslib/vue-ext/commit/64360ba2); 👬 zdm)
+
+Compare with the previous release: [v8.15.30...v8.15.31](https://github.com/corejslib/vue-ext/compare/v8.15.30...v8.15.31)
+
 ### v8.15.30 (2026-10-07)
 
 **Other changes:**
