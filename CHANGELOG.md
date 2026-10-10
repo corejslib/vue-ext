@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.32 (2026-10-10)
+
+**Bug fixes:**
+
+- \[PATCH] fix: fix plural forms (● [9ba89f4](https://github.com/corejslib/vue-ext/commit/9ba89f4b); 👬 zdm)
+
+Compare with the previous release: [v8.15.31...v8.15.32](https://github.com/corejslib/vue-ext/compare/v8.15.31...v8.15.32)
+
 ### v8.15.31 (2026-10-09)
 
 **Other changes:**
