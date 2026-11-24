@@ -1,5 +1,13 @@
 # Changelog
 
+### v8.15.33 (2026-11-24)
+
+**Other changes**:
+
+- build(release): bump ext version to 8.1.0 (● [77d3a20](https://github.com/corejslib/vue-ext/commit/77d3a200); 👬 zdm)
+
+Compare with the previous release: [v8.15.32...v8.15.33](https://github.com/corejslib/vue-ext/compare/v8.15.32...v8.15.33)
+
 ### v8.15.32 (2026-10-10)
 
 **Bug fixes:**
